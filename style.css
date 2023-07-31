@@ -355,10 +355,16 @@ body {
     }
   }
 
+
+
+/* to hide scroll bar of vertical nav bar*/
+
 .sidemenu-mFF::-webkit-scrollbar {
     display: none;
 }
 
+
+/* search bar start */
 
   .auto-group-enpq-67j {
     flex-direction: column;
@@ -433,7 +439,7 @@ body {
       }
       .vector-e4h {
         margin-bottom: 0.3864rem;
-margin-left: 0rem;
+        margin-left: 0rem;
         width: 4.1rem;
         height: 5rem;
         cursor: pointer;
@@ -1481,7 +1487,7 @@ margin-left: 0rem;
         }
       }
       .frame-67-gGh {
-        width: 75rem;
+        max-width: 75rem;
         left: 2rem;
         top: 53.2rem;
         overflow: hidden;
